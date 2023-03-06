@@ -6,3 +6,9 @@ def sayhi(name, age):
     print("Hello " + name + ", you are " + age + ".")
 #this is the command to execute function
 sayhi("Leon", "31")
+
+#you can also use the return information back from a function.
+#Also you can't add anything any code under the return function
+def cube(num):
+    return num*num*num
+print(cube(4))
