@@ -16,4 +16,3 @@ if op in validOperators:
         print(firstNumber / secondNumber)
 else:
      print("Invalid Operator Used!")
-
